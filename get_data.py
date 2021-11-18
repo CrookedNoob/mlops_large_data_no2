@@ -1,7 +1,7 @@
 from sklearn.datasets import make_regression
 import pandas as pd
 import os
-import numy as np
+import numpy as np
 
 if os.path.isfile('large_data.csv'):
     n=1
